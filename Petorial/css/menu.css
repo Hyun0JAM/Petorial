@@ -1,0 +1,27 @@
+#bottom{
+    background-color: white;
+    opacity: 0.8;
+    min-width: 550px;
+    position: fixed;
+    bottom: 0;
+    left: 0; right: 0;
+    margin: auto;}
+#menubar{
+    height: 50px;
+    width: 1000px;
+    margin: 0 auto;}
+.menu{
+    /*box-shadow: 0.5px 0.5px 1px grey;*/
+    height: 50px;
+    width: 250px;
+    margin: 0;
+    padding: 5px 100px 0 100px;
+    float: left;}
+.menu:hover{
+    background-color: darkgrey;
+    transition: all 0.5s;}
+.icon{
+    height: 40px; 
+    width: 40px; 
+    padding: 10px;
+    margin: 0 auto;}

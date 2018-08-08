@@ -1,0 +1,275 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #efefef;}
+a {
+  color: #aaaaaa;
+  transition: all ease-in-out 200ms;}
+a:hover {
+  color: #333333;
+  text-decoration: none;}
+p{font-size: 0.9em;}
+button{
+    border-style: none;
+    background: none;}
+#top{
+    background-color: darkgray;
+    opacity: 0.9;
+    min-width: 550px;
+    position: fixed;
+    top: 0;
+    left: 0; right: 0;
+    margin:auto;}
+#top-bar>div,center{float: left}
+.top-menu>img,#menu-icon{
+    width: 80px;height: 50px;
+    padding: 8px 23px;margin:0;
+    margin: 0 auto;
+    float: left;}
+#menu-icon:hover{
+    background-color: black;
+    transition: all 0.5s;}
+.top-search{
+    padding: 0 30px; margin: 0 135px;}
+#search{
+    float: left;
+    min-width: 460px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    border: solid 1px darkgray;}
+#search-icon{
+	background-color:gray;
+	width:20px;
+	height:20px;
+	border:solid 1px gray;
+	border-radius:10px;
+	margin-top:12px;
+}
+.top-search>img{
+    float: left;
+    height: 25px;
+    width: 25px;
+    padding: 3px;
+    margin: 12px 0;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: gray;}
+#search-icon:hover{
+    transition: all 0.7s;
+    transform: 3s;
+    transform: scale(1.2,1.2);}
+#top-bar{
+    width: 1075px;
+    margin: 0 auto;}
+#all{
+    min-height: 790px;
+    width: auto;
+    margin: 50px auto;}
+#follow-icon{
+    width: 50px;height: 50px;
+    padding: 5px;
+    float: right;
+    position: absolute;
+    top:150px; right: 1%;}
+#background-img{
+    height: 300px;
+    background-color: antiquewhite;}
+#profile-photo{
+    width: 180px;height: 180px;
+    border: solid 1px white;
+    position: absolute;
+    top: 220px;left: 50%;
+    margin: -25px 0 0 -125px;
+    border-radius: 90px; 
+    overflow: hidden;
+    z-index: 0;}
+#NAME{
+    min-width: 180px;
+    position: absolute;
+    top: 400px; left: 50%;
+    margin: -25px 0 0 -125px;
+    background-color: snow;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    text-align: center;}
+#timeline{
+    float: left;
+    width: 1500px;
+    min-height: 500px;
+    margin: 50px auto;
+    border-left: dashed 1px gray;}
+#right-area{
+    float: left;
+    min-height: 300px;
+    min-width: 300px;
+    margin: 50px 1vw;}
+#title{
+    background-color: darkgray;
+    width: 279px;
+    font-weight: bold;
+    padding: 3px 0;}
+.more{
+    border: solid 1px darkgray;
+    width: 280px;
+    min-height: 200px; 
+    margin: 30px auto; padding: 0;
+    padding-top: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;}
+#info-bt{
+    width: 278px;
+    height: 45px;
+    padding-bottom: 1px; 
+    margin: 0;padding: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: solid 0.5px darkgrey;}
+#mini-card{
+    margin: 11px;
+    height: 90px;
+    width: 70px;
+    float: left;
+    font-size: 0.8em;}
+#mini-card:hover{
+    transition: all 0.8s; 
+    transform: scale(1.1,1.1); }
+.contents{
+    float: left;
+    height: 40px;
+    width: 330px;
+    margin-left:10px;}
+#input-bt{
+	padding:3px;
+	margin-bottom: 7px;
+	width:40px;
+	height:25px;
+	border-radius:5px;
+	border: solid 2px darkgray;
+	font-size:0.7em;}
+#input-text{
+	width: 320px; height:25px; 
+	margin-left:10px; 
+	border-radius:2px; 
+	border: solid 1px darkgray;
+	padding:3px;
+	margin-bottom:12px;
+	margin-top:10px;}
+.heart{
+    margin-top: 15px;
+    height: 50px;
+    float: left;
+    width: 49px;
+    padding: 0 9px;}
+#like-icon:hover{
+    transform: scale(1.2,1.2);
+    transition: all 1s;}
+#cnt{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;}
+#like-icon{
+    width: 30px;
+    height: 30px;}
+.contents{
+    float: left;
+    height: 40px;
+    width: 330px;
+    margin-left:10px;}
+#comments-out{
+	float:left;
+	height:15px;
+	margin-left:10px;
+	margin-bottom:7px;
+	width:350px;}
+.comments{
+	border-top: dotted 1px gray;
+	float:left;
+	width:398px;
+	height:55px;
+    overflow:auto;}
+#comments-out{
+	float:left;
+	height:15px;
+	margin-left:10px;
+	margin-bottom:7px;
+	width:350px;}
+#comments-out>label{
+	float:left;
+	margin-top:13px;
+	font-weight:bold;
+	font-size:0.9em;}
+#comments-out>p{
+	height:30px;
+	font-size:0.8em;
+	float:left;}
+.contents,.comments{
+    padding: 0 5px;}
+#card_tag{
+	float:left;
+	height:40px;
+	padding: 8px 0px 5px 20px;}
+.cards{
+    float: left;
+    width: 400px;
+    margin: 50px;
+    margin-top: 20px;
+    padding: 0;
+    border-radius: 8px;
+    background-color: white;
+    border: solid 0.5px darkgray;
+    box-shadow: 3px 5px 7px darkgray;}
+.profile{
+	float:left;
+    margin-left: 8px; padding: 10px;
+    height: 60px;}
+.profile_img{
+    width: 52px;
+    height: 52px;
+    border-radius: 26px;
+    border:solid 0.5px darkgray;
+    overflow: hidden;}
+.profile_img,.name{float: left;}
+.name{
+    margin-left: 25px; 
+    font-size:0.9em;
+    width:260px; }
+.picture{
+	float:left;
+    margin: 10px 0; padding: 0;
+    height:400px;}
+#tm_img{
+	float:left;
+	height: 400px; 
+	width: 398px; 
+	margin-left:1px;}
+.name{
+    margin-left: 20px; }
+#contents{
+    height: auto;
+    min-width: 400px;
+    margin-left:10px;}
+.contents,.comments{
+    margin: 0;padding: 0 10px;}
+.contents{
+    float: left;
+    height: 40px;
+    width: 330px;
+    margin-left:10px;}
+.picture{
+    margin: 0; padding: 0;}
+button{
+    margin: 0;padding: 0;
+    height: 30px;width: 30px;}
+#show-button{
+    width: 399px;
+    height: auto;
+    background-color: darkgray;
+    margin-bottom: 0.5px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: all 0.5s;}
